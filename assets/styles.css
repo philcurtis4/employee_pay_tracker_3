@@ -1,0 +1,18 @@
+main {
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+main h1 {
+    padding-bottom: 30px;
+}
+
+table {
+    
+    border-top: 4px solid rgb(120, 120, 120);
+}
+
+td {
+    padding: 0 50px;
+}
