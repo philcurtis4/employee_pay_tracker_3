@@ -3,17 +3,19 @@ function showPrompt() {
     if(firstName == "") {
        return alert("Please enter first name!");
         
-    }
+    };
     var lastName = prompt("Please enter employee's last name");
     if(lastName == "") {
         return alert("Please enter last name!");
          
-     }
+     };
     var salary = prompt("Please enter employee's salary");
     if(firstName == "") {
         return alert("Please enter salary!");
          
-     }
+     };
+
+     const keepAdding = confirm("Do you want to add more?");
 
     if(firstName && lastName && salary !== null){
         var table = document.getElementById("table")
